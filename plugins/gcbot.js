@@ -9,7 +9,7 @@ let fetch = require('node-fetch')
          let _gc2 = 'https://chat.whatsapp.com/' + await conn.groupInviteCode(gc2) 
          let _gc3 = 'https://chat.whatsapp.com/' + await conn.groupInviteCode(gc3) 
          let caption = ` 
- *Join juga group official Cute Bot!* 
+ *Join juga group official SxyoBotz!* 
  Sekedar meramaikan, atau juga jika ada informasi mengenai bot. 
   
  *Group 1* 
@@ -24,9 +24,9 @@ let fetch = require('node-fetch')
  `.trim() 
          await conn.reply(m.chat, caption, m, { contextInfo: { 
              externalAdReply: { 
-               sourceUrl: 'https://youtu.be/RlhkqeUDZrA', 
+               sourceUrl: 'https://youtu.be/RlhjkqeUDZrA', 
                title: 'Official group', 
-               body: 'Raa Bot', 
+               body: 'Sxyo', 
                thumbnail: pp 
              } 
          }}) 
@@ -36,16 +36,16 @@ let fetch = require('node-fetch')
 Sekedar meramaikan, atau juga jika ada informasi mengenai bot. 
   
  *Group 1* 
-https://chat.whatsapp.com/Gapunya
+https://chat.whatsapp.com/ExDCV1XQ854FDSQw76rPfR
  
  `.trim() 
      await conn.sendButtonDoc(m.chat, tulisan.trim(), 'Harap patuhi rules dan peraturan pada masing masing group ya! Terimakasih.', 'Rules', '.rules', m, {
     quoted: m,
     contextInfo: { forwardingScore: 99999, isForwarded: true,
         externalAdReply: {
-        	sourceUrl: 'https://instagram.com/inizenscuy/',
+        	sourceUrl: 'https://instagram.com/ahmdzakaria47',
             title: 'Gruop Official',
-            body: '© RaaBotz-MD By Claraa San',
+            body: '© SxyoBotz-MD By Mass Aji',
           thumbnail: await (await fetch('https://telegra.ph/file/f05029f17de62fb420459.jpg')).buffer()
         }
      }
